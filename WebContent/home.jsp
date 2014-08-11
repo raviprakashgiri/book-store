@@ -49,6 +49,8 @@
                   <li><a href="#">One more separated link</a></li>
                 </ul>
               </li>
+              <li> <input type="text" style="width:300px; left: 20px; height:35px; position:relative; top:7px;" name="q" autocomplete="off"/></li>
+    		  <li>	<input type="submit" style="height:35px; left: 23px; position:relative; top:7px;" value="Search" /></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="./">Default</a></li>
