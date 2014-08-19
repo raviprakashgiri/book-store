@@ -28,25 +28,24 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Indian-Books</a>
+            <a class="navbar-brand" href="index.php">IndianBooks</a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="home.php">About-Us</a></li>
+              <li class="active"><a href="home.php">About Us</a></li>
               <li><a href="#">Home</a></li>
-             <!-- <li><a href="#">Link</a></li> -->
+              <!-- <li><a href="#">Link</a></li>-->
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Arts</a></li>
+                <li><a href="#">Arts</a></li>
                   <li><a href="#">Children</a></li>
                   <li><a href="#">Life</a></li>
                    <li><a href="#">Literate</a></li>
                      <li><a href="#">Social Science</a></li>
                      <li><a href="#">Technology</a></li>
-                  <li class="divider"></li>
-                <!--  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
+               <!--   <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">k</a></li>
                   <li><a href="#">One more separated link</a></li> -->
                 </ul>
               </li>
@@ -54,9 +53,8 @@
     		  <li>	<input type="submit" style="height:35px; left: 23px; position:relative; top:7px;" value="Search" /></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="Contact.php">Contact</a></li>
-                
-              <li><a href="Login.php">Login</a></li>
+              <li class="active"><a href="./">Contact Us</a></li>
+              <li><a href="../navbar-static-top/">Login</a></li>
               <li><a href="Registraction.php">Registraction</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -66,8 +64,8 @@
      
 
 <!-- Carousel -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
+  <!--  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -75,8 +73,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide"> -->
-            <img src="../image/img.jpg" alt="First slide">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Example headline.</h1>
@@ -86,7 +83,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="../image/img2.jpg" alt="Second slide">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
@@ -96,7 +93,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="../image/img3.jpg" alt="Third slide">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>One more for good measure.</h1>
@@ -108,15 +105,22 @@
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
+    </div><!-- /.carousel --> 
     
      <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
+       <div class="content">
+
+<div class="content">
+<article class="spacing-1">
+<img  align ="" src="../image/handshake.jpg" width="550" height="245" />
+<h3 align="center">You have been successfully registered!!!!<br />
+</h3></article>
+
+
+</div>
+
+</div>
       </div>
       
       
