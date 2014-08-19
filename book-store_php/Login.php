@@ -36,9 +36,10 @@
        
                         <div id="login_right">
                         	Login by<br>
-                             <img src="../image/facebook.jpg"><button class="login_right_btn" id="google_btn"></button>
+                             <img src="../image/facebook.jpg">
+				<!--<button class="login_right_btn" id="google_btn"></button>
                             <button class="login_right_btn" id="google_btn"></button><br>
-                            <button class="login_right_btn" id="weibo_btn"></button>
+                            <button class="login_right_btn" id="weibo_btn"></button> -->
                         </div> 
       </div>
     </div>
