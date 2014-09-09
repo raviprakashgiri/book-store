@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -111,7 +114,7 @@
       <div class="jumbotron">
        <div class="content">
 <h3 align="center">WELCOME TO THE REGISTRATION PAGE:</h3>
-<form action="deal.php" method ="POST">
+<form action="register.php" method ="POST">
   <table align="center" width="304" border="0">
     <tr>
     <td width="101">NAME: &nbsp;</td>
@@ -129,21 +132,16 @@
   </tr>
   <tr>
       <br>
-      
-    <tr>
-        </n>
     <td>Address:&nbsp;</td>
-    <td><input type="text" name="budget" /></td>
-  </tr>  
-    
+    <td><input type="text" name="address" /></td>
   </tr>
-  
   <tr>
+    <br>
     <td><label>Gender:-</label></td>
     <td><select name="venue">
       <option value="0"> - Select Any - </option>
-      <option value="female">Female</option>
-      <option value="male">male</option>
+      <option value="male">M</option>
+      <option value="female">F</option>
      
     </select></td>
   </tr>
@@ -160,6 +158,15 @@
       <input type="submit" value="Submit" />
     </td></a>
     </tr>
+    <br>
+    <tr>
+    <td>
+    <span >  
+    <?php if(isset($_SESSION['message'] ) and !empty($_SESSION['message'])) {echo $_SESSION['message'];
+     unset($_SESSION['message']);} ?>
+    <span>
+    </td>
+    </tr>                                        
 </table><br />
 <br />
 <br /><br /><br>
