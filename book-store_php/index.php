@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -57,7 +60,7 @@
               <li class="active"><a href="Contact.php">Contact</a></li>
                 
               <li><a href="Login.php">Login</a></li>
-              <li><a href="Registraction.php">Registraction</a></li>
+              <li><a href="Registraction.php">Registration</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -79,7 +82,9 @@
             <img src="../image/img.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
+             <h3><?php if(isset($_SESSION['message']) and !empty($_SESSION['message'])) echo $_SESSION['message'] ; ?></h3>
+              <h1>Welcome</h1>
+
               <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
             </div>
